@@ -33,10 +33,9 @@ class DatabaseHelper {
 
   // إضافة دالة الترقية (مهمة لو هتغير في جدول مستقبلاً)
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
-    // مثال: لو هتضيف عمود جديد في إصدار لاحق
-    // if (oldVersion < 2) {
-    //   await db.execute("ALTER TABLE invoices ADD COLUMN newColumn TEXT;");
-    // }
+    if (oldVersion < 2) {
+      await db.execute("ALTER TABLE invoices ADD COLUMN newColumn TEXT;");
+    }
   }
 
   Future<void> _onCreate(Database db, int version) async {
