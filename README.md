@@ -25,7 +25,9 @@ Invoice layout centered and printer-ready
 Preview PDF directly before printing or sharing
 
 📸 Screenshots
-![Screenshot_20250703-183324](https://github.com/user-attachments/assets/07e962ce-1c7e-4a0a-9d2a-26bebdf973d3)
+![Screenshot_20250703-183221](https://github.com/user-attachments/assets/68a5ca1a-f39f-4062-86a0-2c44c186e0e3)
+
+
 👨‍💻 Developed by
 Ahmed Ayman
 LinkedIn Profile
